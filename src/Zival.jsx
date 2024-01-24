@@ -1,9 +1,15 @@
-import { Profil } from "./Profil";
+import { PreberiVec } from "./PreberiVec";
 
-export default function Zival() {
+export function Zival(props) {
+  const { name, desc, url, image } = props.data;
   return (
-    <Profil opis="To je opis zivali" visina="200">
-      sdfasdf
-    </Profil>
+    <>
+      <div className="zival">
+        <img src={image} />
+        <h2>{name}</h2>
+        <p>{desc}</p>
+        <PreberiVec href={url}>{name}</PreberiVec>
+      </div>
+    </>
   );
 }
