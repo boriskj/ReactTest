@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Playfair+Display&family=Roboto:wght@100&display=swap");
 .zival {
   background-color: #55e6c1;
   padding: 10px;
@@ -7,14 +9,21 @@
   color: #6858b1;
   font-size: large;
   text-align: center;
-  font-family:;
+  font-family: "Playfair Display", serif;
+  font-size: 30px !important;
 }
 
-.zival p {
+p {
+  text-align: center;
+  font-size: 30px !important;
 }
 
 .zival img {
   border: 2px greenyellow;
-
-  border: radius 50%;
+  border-radius: 10%;
+}
+h4 {
+  text-align: center;
+  font-family: "Libre Baskerville", serif;
+  font-size: 50px !important;
 }
